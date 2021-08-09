@@ -168,7 +168,7 @@ def lex(filecontent):
         elif state == 1:
             string += tok
             tok = ""
-    print(tokens)
+    #print(tokens)
     #return ''
     return tokens
 
