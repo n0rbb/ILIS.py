@@ -1,0 +1,19 @@
+:INICIO-LIS
+:INICIO-MAT
+VAR:n = 5
+ENT "NUMERO:", VAR:n
+VAR:doble = DOB:VAR:n
+IMP "doble:"
+IMFL VAR:doble
+VAR:sq = POT:VAR:n,2
+IMP "cuadrado:"
+IMFL VAR:sq
+VAR:root = RAIZ:VAR:n,2
+IMP "raiz cuadrada:"
+IMFL VAR:root
+IMP "cubo:"
+IMFL POT:VAR:n,3
+IMP "enesima:"
+IMFL POT:VAR:n,VAR:n
+IMP "raiz enesima:"
+IMFL RAIZ:VAR:n,VAR:n

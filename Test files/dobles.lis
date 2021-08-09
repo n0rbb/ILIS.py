@@ -1,0 +1,7 @@
+:INICIO-LIS
+:INICIO-MAT
+VAR:number = 0
+ENT "Ingrese un numero: " VAR:number
+VAR:double = DOB:VAR:number
+IMP "Su doble es "
+IMFL VAR:double

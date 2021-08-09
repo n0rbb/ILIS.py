@@ -1,0 +1,8 @@
+:INICIO-LIS
+:INICIO-MAT
+VAR:n = 4
+VAR:q = "Hello  "
+ENT VAR:q, VAR:n
+IMP "HELLO"
+IMP VAR:n
+IMFL "want sometnhing"

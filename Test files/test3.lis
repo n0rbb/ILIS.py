@@ -1,0 +1,12 @@
+:INICIO-LIS
+:INICIO-MAT
+ENT:"INTRODUZCA UNA OPERACION: ", VAR:operacion
+SI VAR:operacion == "doblew"{
+  ENT:"Introduzca un número",VAR:n
+  IMPF:DOB:VAR:n
+}
+SI VAR:operacion == "logaritmo"{
+  ENT:"Introduzca un número:", VAR:base
+  ENT:"Introduzca otro número:", VAR:log
+  IMPF:LOG:VAR:base,VAR:log
+}
