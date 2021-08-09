@@ -1,7 +1,7 @@
 :INICIO-LIS
 :INICIO-MAT
 ENT:"INTRODUZCA UNA OPERACION: ", VAR:operacion
-SI VAR:operacion == "doblew"{
+SI VAR:operacion == "doble"{
   ENT:"Introduzca un número",VAR:n
   IMPF:DOB:VAR:n
 }
